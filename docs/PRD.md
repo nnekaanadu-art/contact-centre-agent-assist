@@ -6,7 +6,7 @@ Nneka Anadu · November 1, 2026
 
 Contact centre agents spend several minutes after each call writing notes and choosing next steps, and complaints and vulnerable customers can be missed on busy days. The agent assist prototype reads a call transcript and returns five outputs for the agent: a summary, an intent, a complaint flag, a vulnerability flag, and a next best action. Every output is a recommendation; the agent always makes the final decision.
 
-This is a learning prototype built with free tools (Google AI Studio on the Gemini free tier, Google Colab, Google Sheets). It is tested on 20 fictional transcripts for a fictional bank, Northbridge Bank, plus a five call holdout set. No real customer data is used.
+This is a learning prototype built with free tools (Google AI Studio on the Gemini free tier, Google Colab, Google Sheets). It is tested on 20 fictional transcripts for a fictional bank, Northbridge Bank. A five call holdout set of new transcripts is planned as the next step. No real customer data is used.
 
 ## Users and scope
 
@@ -89,7 +89,7 @@ The top risk is a missed complaint or vulnerable customer, so recall targets and
 | Lower accuracy for some customer groups | Harmful bias and homogenization | Map, Measure | Add varied speaking styles to the evaluation set and score results by group. |
 | Text in a transcript tries to override the prompt | Information security | Measure, Manage | Schema and approved list checks. Add a test transcript with injected instructions. |
 | Free tier model changes without notice | Value chain and component integration | Govern, Manage | Log the model version with each run. Rerun the full evaluation on any change. |
-| Results do not hold beyond 20 calls | Not a profile risk; trustworthy characteristic "valid and reliable" | Measure | Holdout set now. Grow to 100 or more calls before any pilot. |
+| Results do not hold beyond 20 calls | Not a profile risk; trustworthy characteristic "valid and reliable" | Measure | Test a five call holdout set next. Grow to 100 or more calls before any pilot. |
 
 As of October 2026, NIST notes the AI RMF 1.0 is under revision; recheck the mapping when a new version is published.
 
