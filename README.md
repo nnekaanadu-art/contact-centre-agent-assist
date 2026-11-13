@@ -60,7 +60,7 @@ All transcripts are synthetic and were created for this proof of concept. No rea
 
 **Created by Nneka Anadu**
 
-[View My Product Leadership Portfolio](https://nnekaanadu-art.github.io/) | [Connect on LinkedIn](https://www.linkedin.com/in/NnekaAnadu)
+[View My Portfolio](https://nnekaanadu-art.github.io/) | [Connect on LinkedIn](https://www.linkedin.com/in/NnekaAnadu)
 
 
 © 2026 Nneka Anadu. All rights reserved.
