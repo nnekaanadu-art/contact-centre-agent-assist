@@ -171,13 +171,21 @@ The focus is on demonstrating AI product discovery, evaluation, and validation r
 
 ## How to Explore
 
-1. Open the [Google Colab notebook](https://colab.research.google.com/github/nnekaanadu-art/contact-centre-agent-assist/blob/main/agent_assist.ipynb).
-2. Review the notebook instructions and sample transcripts.
-3. Review the evaluation results for Versions 1 and 2.
-4. Compare prompt changes and the resulting classifications.
-5. Read the [Product Requirements Document](docs/PRD.md) for the product design and governance considerations.
+- Open the [Google Colab notebook](https://colab.research.google.com/github/nnekaanadu-art/contact-centre-agent-assist/blob/main/agent_assist.ipynb) and read the walkthrough.
+- Compare the published [Version 1 results](data/results_v1.csv), [Version 2 results](data/results_v2.csv), and [prompt changes](data/prompt_versions.csv).
+- Read the [Product Requirements Document](docs/PRD.md) for the product design and governance considerations.
 
-Running the notebook may require access to the Gemini API and appropriate configuration.
+### Validate the dataset without a Gemini key
+
+In Colab, run only the **Load synthetic evaluation data from GitHub** code cell. It loads the transcript and answer-key columns from [Version 2 results](data/results_v2.csv), excludes the trailing evaluation summary row, and verifies that the dataset contains 20 complete transcripts. No Gemini API calls or file upload are needed.
+
+### Run a fresh evaluation
+
+1. Add a Colab secret named `GEMINI_API_KEY` using the key icon in the sidebar and enable notebook access.
+2. Run the dependency installation, Gemini setup, dataset loading, prompt, analysis, and scoring cells in order.
+3. Run the download cell to save your fresh results CSV.
+
+A fresh evaluation requires access to the Gemini model configured in the notebook. API calls may incur costs. The published results are historical and reruns may differ.
 
 ## Data and Privacy
 
