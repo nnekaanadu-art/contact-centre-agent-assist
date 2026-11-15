@@ -117,7 +117,9 @@ An output is accepted only when it meets the applicable field requirements and t
 |---|---|
 | Summary | Three to five sentences covering the reason for the call, actions taken, relevant context, and unresolved matters. Must not introduce unsupported facts or expose full account or card numbers. |
 | Intent | Exactly one approved intent label, consistent with the answer key |
-| Complaint flag | Yes or No. Yes when dissatisfaction concerns the bank's fees, service, or errors, or the customer asks for a complaint to be recorded. Merchant-only
+| Complaint flag | Yes or No. Yes when dissatisfaction concerns the bank's fees, service, or errors, or the customer asks for a complaint to be recorded. Merchant-only frustration is not a complaint against the bank. |
+| Vulnerability flag | Yes or No. Yes when the customer mentions something that may reduce their ability to manage their finances, such as bereavement, illness, age-related confusion, job loss, or pressure from a scammer that affects their ability to protect themselves. Promptly reporting fraud or theft is not, on its own, a sign of vulnerability. |
+| Next best action | Exactly one approved action from the defined list, consistent with the answer key |
 
 <!-- UNIVERSAL FOOTER START -->
 
