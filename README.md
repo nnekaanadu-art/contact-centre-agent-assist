@@ -230,10 +230,22 @@ The reported evaluation results reflect a limited synthetic dataset and should n
 
 The proof of concept is not affiliated with any employer or financial institution and is not intended for live customer servicing or automated customer decisions.
 
+<!-- UNIVERSAL FOOTER START -->
+
 ---
 
-**Product Thinking in Practice**
+<p align="center">
+  <strong>Product Thinking in Practice</strong>
+</p>
 
-[Portfolio Home](https://nnekaanadu-art.github.io/) | [LinkedIn](https://www.linkedin.com/in/NnekaAnadu) | [GitHub](https://github.com/nnekaanadu-art)
+<p align="center">
+  <a href="https://nnekaanadu-art.github.io/">Portfolio Home</a> |
+  <a href="https://www.linkedin.com/in/NnekaAnadu">LinkedIn</a> |
+  <a href="https://github.com/nnekaanadu-art">GitHub</a>
+</p>
 
-© 2026 Nneka Anadu. All rights reserved.
+<p align="center">
+  © 2026 Nneka Anadu. All rights reserved.
+</p>
+
+<!-- UNIVERSAL FOOTER END -->

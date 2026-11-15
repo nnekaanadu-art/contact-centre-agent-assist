@@ -118,3 +118,23 @@ An output is accepted only when it meets the applicable field requirements and t
 | Summary | Three to five sentences covering the reason for the call, actions taken, relevant context, and unresolved matters. Must not introduce unsupported facts or expose full account or card numbers. |
 | Intent | Exactly one approved intent label, consistent with the answer key |
 | Complaint flag | Yes or No. Yes when dissatisfaction concerns the bank's fees, service, or errors, or the customer asks for a complaint to be recorded. Merchant-only
+
+<!-- UNIVERSAL FOOTER START -->
+
+---
+
+<p align="center">
+  <strong>Product Thinking in Practice</strong>
+</p>
+
+<p align="center">
+  <a href="https://nnekaanadu-art.github.io/">Portfolio Home</a> |
+  <a href="https://www.linkedin.com/in/NnekaAnadu">LinkedIn</a> |
+  <a href="https://github.com/nnekaanadu-art">GitHub</a>
+</p>
+
+<p align="center">
+  © 2026 Nneka Anadu. All rights reserved.
+</p>
+
+<!-- UNIVERSAL FOOTER END -->
